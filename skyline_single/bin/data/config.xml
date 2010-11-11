@@ -1,0 +1,9 @@
+<settings>
+	<osc>
+		<port>13001</port>
+	</osc>
+	<screen>
+		<width>1800</width>
+		<height>800</height>
+	</screen>
+</settings>
