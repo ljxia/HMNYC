@@ -16,8 +16,8 @@ class TweetCollection
 {
 public:
 	TweetCollection();
-	int push(Tweet t);
-	Tweet pop();
+	int push(Tweet *t);
+	Tweet *pop();
 	
-	deque<Tweet> *tweets;
+	deque<Tweet *> *tweets;
 };

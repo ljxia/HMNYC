@@ -23,10 +23,13 @@ public:
 	void mouseReleased(int x, int y, int button);
 	void windowResized(int w, int h);
 	
-
+	
+	ofTrueTypeFont  defaultFont;
+	ofTrueTypeFont	doubleSizedFont;
+	ofTrueTypeFont	superSizedFont;
 
 	ofTrueTypeFont tweetFont;
-	ofxTextBlock        myText;
+	//ofxTextBlock        myText;
 	TextBlockAlignment  alignment;
 
 
@@ -35,8 +38,10 @@ private:
 	ofxOscReceiver	receiver;
 	string tweet;
 	TweetCollection *tweets;
+	TweetCollection *tweetsOnShow;
 	
-	float lastTweetTime; 
+	double lastTweetTime; 
+	int activeColumn;
     
 };
 

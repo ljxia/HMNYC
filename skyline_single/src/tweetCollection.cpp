@@ -11,16 +11,16 @@
 
 TweetCollection::TweetCollection()
 {
-	tweets = new deque<Tweet>();
+	tweets = new deque<Tweet *>();
 }
 
-int TweetCollection::push(Tweet t)
+int TweetCollection::push(Tweet *t)
 {
 	tweets->push_back(t);
 	return tweets->size();
 }
 
-Tweet TweetCollection::pop()
+Tweet *TweetCollection::pop()
 {
 	return tweets->front();
 }
