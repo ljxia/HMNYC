@@ -16,6 +16,8 @@
 		DCAA4FB4128742E40090F9F1 /* ofxTextBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCAA4FAF128742E40090F9F1 /* ofxTextBlock.cpp */; };
 		DCAA4FEE12875C510090F9F1 /* tweet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCAA4FED12875C510090F9F1 /* tweet.cpp */; };
 		DCAA4FF412875D120090F9F1 /* tweetCollection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCAA4FF312875D120090F9F1 /* tweetCollection.cpp */; };
+		DCAA564D128CF3B60090F9F1 /* ofxRuiThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCAA5649128CF3B60090F9F1 /* ofxRuiThread.cpp */; };
+		DCAA5678128D092C0090F9F1 /* ofxThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCAA5676128D092C0090F9F1 /* ofxThread.cpp */; };
 		DCCAB38E127A9A9A0039E1B0 /* osc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCAB382127A9A9A0039E1B0 /* osc.a */; };
 		DCCAB38F127A9A9A0039E1B0 /* ofxOscBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCCAB386127A9A9A0039E1B0 /* ofxOscBundle.cpp */; };
 		DCCAB390127A9A9A0039E1B0 /* ofxOscMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCCAB388127A9A9A0039E1B0 /* ofxOscMessage.cpp */; };
@@ -25,7 +27,6 @@
 		E44667360F5B3E04005D0BF0 /* ofxTCPManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44666350F5B3E03005D0BF0 /* ofxTCPManager.cpp */; };
 		E44667370F5B3E04005D0BF0 /* ofxTCPServer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44666370F5B3E03005D0BF0 /* ofxTCPServer.cpp */; };
 		E44667380F5B3E04005D0BF0 /* ofxUDPManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44666390F5B3E03005D0BF0 /* ofxUDPManager.cpp */; };
-		E44667700F5B3E04005D0BF0 /* ofxThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E44666CB0F5B3E04005D0BF0 /* ofxThread.cpp */; };
 		E45BE0AA0E8CC67C009D7055 /* GLee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE0A90E8CC67C009D7055 /* GLee.a */; };
 		E45BE2E40E8CC69C009D7055 /* rtAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE2E30E8CC69C009D7055 /* rtAudio.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -124,6 +125,11 @@
 		DCAA4FED12875C510090F9F1 /* tweet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tweet.cpp; sourceTree = "<group>"; };
 		DCAA4FF212875D120090F9F1 /* tweetCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweetCollection.h; sourceTree = "<group>"; };
 		DCAA4FF312875D120090F9F1 /* tweetCollection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tweetCollection.cpp; sourceTree = "<group>"; };
+		DCAA5649128CF3B60090F9F1 /* ofxRuiThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxRuiThread.cpp; path = ../../../addons/ofxRuiThread/src/ofxRuiThread.cpp; sourceTree = SOURCE_ROOT; };
+		DCAA564A128CF3B60090F9F1 /* ofxRuiThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxRuiThread.h; path = ../../../addons/ofxRuiThread/src/ofxRuiThread.h; sourceTree = SOURCE_ROOT; };
+		DCAA564E128CF7DA0090F9F1 /* tweetListenerThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tweetListenerThread.h; sourceTree = "<group>"; };
+		DCAA5676128D092C0090F9F1 /* ofxThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxThread.cpp; path = ../../../addons/ofxThread/src/ofxThread.cpp; sourceTree = SOURCE_ROOT; };
+		DCAA5677128D092C0090F9F1 /* ofxThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxThread.h; path = ../../../addons/ofxThread/src/ofxThread.h; sourceTree = SOURCE_ROOT; };
 		DCCAB33C127A94880039E1B0 /* storeSingleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = storeSingleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCAB36D127A9A9A0039E1B0 /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = install.xml; path = ../../../addons/ofxOsc/install.xml; sourceTree = SOURCE_ROOT; };
 		DCCAB372127A9A9A0039E1B0 /* IpEndpointName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IpEndpointName.h; path = ../../../addons/ofxOsc/libs/oscpack/include/ip/IpEndpointName.h; sourceTree = SOURCE_ROOT; };
@@ -159,8 +165,6 @@
 		E44666380F5B3E03005D0BF0 /* ofxTCPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxTCPServer.h; path = ../../../addons/ofxNetwork/src/ofxTCPServer.h; sourceTree = SOURCE_ROOT; };
 		E44666390F5B3E03005D0BF0 /* ofxUDPManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxUDPManager.cpp; path = ../../../addons/ofxNetwork/src/ofxUDPManager.cpp; sourceTree = SOURCE_ROOT; };
 		E446663A0F5B3E03005D0BF0 /* ofxUDPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxUDPManager.h; path = ../../../addons/ofxNetwork/src/ofxUDPManager.h; sourceTree = SOURCE_ROOT; };
-		E44666CB0F5B3E04005D0BF0 /* ofxThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxThread.cpp; path = ../../../addons/ofxThread/src/ofxThread.cpp; sourceTree = SOURCE_ROOT; };
-		E44666CC0F5B3E04005D0BF0 /* ofxThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxThread.h; path = ../../../addons/ofxThread/src/ofxThread.h; sourceTree = SOURCE_ROOT; };
 		E45BE0390E8CC647009D7055 /* FreeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeImage.h; path = ../../../libs/freeimage/include/FreeImage.h; sourceTree = SOURCE_ROOT; };
 		E45BE03F0E8CC650009D7055 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod.h; path = ../../../libs/fmodex/include/fmod.h; sourceTree = SOURCE_ROOT; };
 		E45BE0400E8CC650009D7055 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fmod.hpp; path = ../../../libs/fmodex/include/fmod.hpp; sourceTree = SOURCE_ROOT; };
@@ -309,6 +313,44 @@
 			path = ../../../addons/ofxTextSuite/src;
 			sourceTree = SOURCE_ROOT;
 		};
+		DCAA5641128CF3B60090F9F1 /* ofxRuiThread */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA5648128CF3B60090F9F1 /* src */,
+			);
+			name = ofxRuiThread;
+			path = ../../../addons/ofxRuiThread;
+			sourceTree = SOURCE_ROOT;
+		};
+		DCAA5648128CF3B60090F9F1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA5649128CF3B60090F9F1 /* ofxRuiThread.cpp */,
+				DCAA564A128CF3B60090F9F1 /* ofxRuiThread.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxRuiThread/src;
+			sourceTree = SOURCE_ROOT;
+		};
+		DCAA5671128D092C0090F9F1 /* ofxThread */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA5675128D092C0090F9F1 /* src */,
+			);
+			name = ofxThread;
+			path = ../../../addons/ofxThread;
+			sourceTree = SOURCE_ROOT;
+		};
+		DCAA5675128D092C0090F9F1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA5676128D092C0090F9F1 /* ofxThread.cpp */,
+				DCAA5677128D092C0090F9F1 /* ofxThread.h */,
+			);
+			name = src;
+			path = ../../../addons/ofxThread/src;
+			sourceTree = SOURCE_ROOT;
+		};
 		DCCAB36C127A9A9A0039E1B0 /* ofxOsc */ = {
 			isa = PBXGroup;
 			children = (
@@ -417,11 +459,12 @@
 		E44665C70F5B3E03005D0BF0 /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				DCAA5671128D092C0090F9F1 /* ofxThread */,
+				DCAA5641128CF3B60090F9F1 /* ofxRuiThread */,
 				DCAA4F6B128742E40090F9F1 /* ofxTextSuite */,
 				DCCAB36C127A9A9A0039E1B0 /* ofxOsc */,
 				27346E6E111F0C0800391795 /* ofxMostPixelsEver */,
 				E44666040F5B3E03005D0BF0 /* ofxNetwork */,
-				E44666C00F5B3E04005D0BF0 /* ofxThread */,
 				27346C6A111DD60900391795 /* ofxXmlSettings */,
 			);
 			name = addons;
@@ -452,25 +495,6 @@
 			);
 			name = src;
 			path = ../../../addons/ofxNetwork/src;
-			sourceTree = SOURCE_ROOT;
-		};
-		E44666C00F5B3E04005D0BF0 /* ofxThread */ = {
-			isa = PBXGroup;
-			children = (
-				E44666CA0F5B3E04005D0BF0 /* src */,
-			);
-			name = ofxThread;
-			path = ../../../addons/ofxThread;
-			sourceTree = SOURCE_ROOT;
-		};
-		E44666CA0F5B3E04005D0BF0 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				E44666CB0F5B3E04005D0BF0 /* ofxThread.cpp */,
-				E44666CC0F5B3E04005D0BF0 /* ofxThread.h */,
-			);
-			name = src;
-			path = ../../../addons/ofxThread/src;
 			sourceTree = SOURCE_ROOT;
 		};
 		E45BE0360E8CC5DE009D7055 /* libs */ = {
@@ -678,6 +702,7 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* storeApp.h */,
 				E4B69E1E0A3A1BDC003C02F2 /* storeApp.cpp */,
+				DCAA564E128CF7DA0090F9F1 /* tweetListenerThread.h */,
 				DCAA4FEC12875C510090F9F1 /* tweet.h */,
 				DCAA4FED12875C510090F9F1 /* tweet.cpp */,
 				DCAA4FF212875D120090F9F1 /* tweetCollection.h */,
@@ -852,7 +877,6 @@
 				E44667360F5B3E04005D0BF0 /* ofxTCPManager.cpp in Sources */,
 				E44667370F5B3E04005D0BF0 /* ofxTCPServer.cpp in Sources */,
 				E44667380F5B3E04005D0BF0 /* ofxUDPManager.cpp in Sources */,
-				E44667700F5B3E04005D0BF0 /* ofxThread.cpp in Sources */,
 				27346C74111DD60900391795 /* tinyxml.cpp in Sources */,
 				27346C75111DD60900391795 /* tinyxmlerror.cpp in Sources */,
 				27346C76111DD60900391795 /* tinyxmlparser.cpp in Sources */,
@@ -865,6 +889,8 @@
 				DCAA4FB4128742E40090F9F1 /* ofxTextBlock.cpp in Sources */,
 				DCAA4FEE12875C510090F9F1 /* tweet.cpp in Sources */,
 				DCAA4FF412875D120090F9F1 /* tweetCollection.cpp in Sources */,
+				DCAA564D128CF3B60090F9F1 /* ofxRuiThread.cpp in Sources */,
+				DCAA5678128D092C0090F9F1 /* ofxThread.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
